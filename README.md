@@ -6,6 +6,27 @@ Fabrique des vidéos TikTok **POV en 3D façon bande dessinée**, entièrement e
 
 L'exemple fourni s'appelle **« Moi », Partie 1** ([exemple/partie1.mp4](exemple/partie1.mp4), 55 s). Un contact nommé « Moi » envoie des SMS qui se réalisent quelques secondes plus tard. Le fichier sert de modèle : tu gardes le style et le moteur, et tu remplaces l'histoire.
 
+## Démarrer en 1 message avec Claude
+
+Il te faut **Claude Code** (l'appli Claude pour ordinateur, onglet Code, ou `claude` dans un terminal). Le Claude du site web ne peut pas lancer le rendu.
+
+1. Crée un dossier vide, par exemple `mes-videos`, et ouvre-le dans Claude Code.
+2. Colle ce message :
+
+```text
+Clone https://github.com/ryanop202/studio-pov-bd dans ce dossier et ouvre-le.
+Installe tout, puis vérifie que l'exemple se rend correctement.
+Ensuite, lis .claude/commands/nouvelle-histoire.md et suis-le exactement
+pour créer ma propre série avec moi, dans le même style.
+Pose-moi les questions une par une.
+```
+
+Claude installe le projet, le teste, puis t'interviewe sur ton histoire : le lieu, la source mystérieuse, le héros, le compagnon, le ton. Il te propose 3 pitchs, écrit le scénario, te prépare les textes à coller dans ElevenLabs et fabrique la vidéo.
+
+Une fois le projet ouvert, tu peux aussi relancer tout ça à tout moment en tapant `/nouvelle-histoire`, suivi de ton idée si tu en as une.
+
+## Les fichiers
+
 | Fichier | Ce que tu y trouves |
 |---|---|
 | [GUIDE-FORMAT.md](GUIDE-FORMAT.md) | Les règles du format : rythme, retournements, SMS, sous-titres, couleurs, caméra. **À lire avant d'écrire.** |
@@ -54,7 +75,7 @@ node sheet.js 1,5,16.5,31.5,46.7 planche
 
 Le résultat est une planche d'images dans `out/planche.jpg`.
 
-## Le plus simple : le faire avec Claude
+## Ou en décrivant directement ton idée
 
 Ouvre ce dossier dans **Claude Code** et décris ton histoire. Le fichier `CLAUDE.md` lui explique tout le projet et les erreurs déjà corrigées. Par exemple :
 
