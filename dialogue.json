@@ -1,0 +1,153 @@
+{
+ "titre": "Moi — Partie 1",
+ "post": "Partie 1 | Je fais quoi ?",
+ "duree": 55,
+ "prompt_whisper": "Sam, Inès. Dialogue dans un bus.",
+ "lines": [
+  {
+   "id": "m01",
+   "t": 2.3,
+   "who": "sam",
+   "text": "« Moi » ? C'est qui, « Moi » ?"
+  },
+  {
+   "id": "m02",
+   "t": 5.35,
+   "who": "ines",
+   "text": "Sam ! Attention, ta tête !"
+  },
+  {
+   "id": "m03b",
+   "t": 7.55,
+   "who": "ines",
+   "text": "Qui ça ? Montre !"
+  },
+  {
+   "id": "m04",
+   "t": 12.6,
+   "who": "ines",
+   "text": "Y a personne qui conduit !"
+  },
+  {
+   "id": "m05",
+   "t": 17.2,
+   "who": "sam",
+   "text": "…C'est moi."
+  },
+  {
+   "id": "m06",
+   "t": 18.2,
+   "who": "ines",
+   "text": "Sam… y a toi, dans l'autre bus !"
+  },
+  {
+   "id": "m07",
+   "t": 20.3,
+   "who": "sam",
+   "text": "Pourquoi je m'envoie ça ?"
+  },
+  {
+   "id": "m08",
+   "t": 23,
+   "who": "homme",
+   "text": "Il accélère !"
+  },
+  {
+   "id": "m09",
+   "t": 24.4,
+   "who": "sam",
+   "text": "Les portes !"
+  },
+  {
+   "id": "m10",
+   "t": 25.35,
+   "who": "ines",
+   "text": "Elles ne s'ouvrent pas !"
+  },
+  {
+   "id": "m11",
+   "t": 26.3,
+   "who": "homme",
+   "text": "Il va nous rentrer dedans !"
+  },
+  {
+   "id": "m12",
+   "t": 28.5,
+   "who": "sam",
+   "text": "Inès, donne ta main !"
+  },
+  {
+   "id": "m13",
+   "t": 33.4,
+   "who": "ines",
+   "text": "Sam ! Sam… ça va ?"
+  },
+  {
+   "id": "m14",
+   "t": 35.4,
+   "who": "ines",
+   "text": "Viens. Lève-toi."
+  },
+  {
+   "id": "m15",
+   "t": 37.1,
+   "who": "sam",
+   "text": "Tu n'as rien ?"
+  },
+  {
+   "id": "m16",
+   "t": 37.75,
+   "who": "ines",
+   "text": "Non. Rien du tout."
+  },
+  {
+   "id": "m17",
+   "t": 40.2,
+   "who": "sam",
+   "text": "…Quoi ?"
+  },
+  {
+   "id": "m18",
+   "t": 41.2,
+   "who": "ines_loin",
+   "text": "Sam !"
+  },
+  {
+   "id": "m19",
+   "t": 41.8,
+   "who": "ines_loin",
+   "text": "Sam, c'est moi ! Je suis là !"
+  },
+  {
+   "id": "m20",
+   "t": 44.8,
+   "who": "ines",
+   "text": "Regarde-moi, Sam."
+  },
+  {
+   "id": "m21",
+   "t": 46,
+   "who": "ines",
+   "text": "On rentre ?"
+  },
+  {
+   "id": "m22",
+   "t": 47.45,
+   "who": "ines_f",
+   "text": "Lâche pas."
+  },
+  {
+   "id": "m23",
+   "t": 48.7,
+   "who": "ines_loin",
+   "text": "Sam !"
+  },
+  {
+   "id": "m24",
+   "t": 51.3,
+   "who": "sam",
+   "text": "Je fais quoi ?",
+   "nosub": true
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "studio-pov-bd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vidéos TikTok POV en rendu BD 3D, entièrement en code (Three.js + Chrome + ffmpeg).",
+  "scripts": {
+    "scene": "node server.js",
+    "images": "node sheet.js",
+    "rendu": "node render.js",
+    "encode": "node render.js --encode",
+    "voix": "node voicemix.js",
+    "exemple": "node -e \"require('fs').cpSync('exemple/voix','out/voices',{recursive:true})\" && node voicemix.js"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "puppeteer-core": "^23.6.0",
+    "three": "^0.169.0"
+  }
+}

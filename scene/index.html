@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080">
+<title>Studio POV BD</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Montserrat:wght@900&display=swap">
+<style>
+  html,body{margin:0;background:#000;overflow:hidden}
+  #stage{position:relative;width:1080px;height:1920px;transform-origin:0 0}
+  canvas{display:block;width:1080px;height:1920px}
+  #ui{position:absolute;inset:0;pointer-events:none;font-family:Inter,system-ui,sans-serif}
+  .card{position:absolute;left:46px;right:46px;top:140px;border-radius:40px;padding:24px 32px 30px;
+        background:rgba(246,248,251,.97);box-shadow:0 14px 40px rgba(0,0,0,.3),0 0 0 3px rgba(20,30,45,.9);opacity:0;transform-origin:50% 0}
+  .card .hd{display:flex;align-items:center;gap:14px;font:700 26px Inter,sans-serif;color:#6B7584;letter-spacing:.04em}
+  .card .hd .when{margin-left:auto;letter-spacing:0;font:600 26px Inter,sans-serif}
+  .card .from{font:800 36px Inter,sans-serif;color:#10141C;margin:12px 0 2px}
+  .card .tx{font:600 44px/1.22 Inter,sans-serif;color:#10141C;letter-spacing:-.01em}
+  .card.big .tx{font:900 104px/1.05 Inter,sans-serif;letter-spacing:.01em;color:#C62828}
+  .card.out{left:auto;right:56px;top:560px;padding:26px 40px;border-radius:44px 44px 12px 44px;background:#2F7BF6;transform-origin:100% 100%;box-shadow:0 14px 40px rgba(0,0,0,.35),0 0 0 3px rgba(10,20,40,.9)}
+  .card.out .tx{color:#fff;font-weight:800;font-size:58px}
+  .card.out .st,.card.typing .st{position:absolute;top:100%;margin-top:14px;font:600 26px Inter,sans-serif;color:#fff;white-space:nowrap;text-shadow:0 2px 6px #000}
+  .card.out .st{right:12px}
+  .card.typing{right:auto;left:56px;top:760px;padding:28px 36px;border-radius:44px 44px 44px 12px;background:#E7EAF0;transform-origin:0 100%}
+  .card.typing .st{left:12px}
+  .dots{display:flex;gap:14px}.dots i{display:block;width:26px;height:26px;border-radius:50%;background:#6B7584}
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl" width="1080" height="1920"></canvas>
+  <div id="ui">
+    <div id="cards"></div>
+    <svg id="subsvg" width="1080" height="260" viewBox="0 0 1080 260" style="position:absolute;left:0;top:1010px;overflow:visible">
+      <text id="sub" x="540" y="150" text-anchor="middle" font-family="Montserrat, Arial Black, sans-serif" font-weight="900" font-size="84"
+            stroke="#07080A" stroke-width="18" stroke-linejoin="round" paint-order="stroke fill" style="transform-origin:540px 120px"></text>
+    </svg>
+  </div>
+</div>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="/scene/main.js"></script>
+</body>
+</html>

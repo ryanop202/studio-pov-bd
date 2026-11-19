@@ -1,0 +1,7 @@
+node_modules/
+out/
+__pycache__/
+*.pyc
+# ta clé ElevenLabs reste sur ton PC
+tts/cle-elevenlabs.txt
+.env

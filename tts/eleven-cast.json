@@ -1,0 +1,25 @@
+{
+ "model": "eleven_multilingual_v2",
+ "voices": {
+  "sam": {
+   "voice_id": "",
+   "stability": 0.35,
+   "style": 0.45
+  },
+  "ines": {
+   "voice_id": "",
+   "stability": 0.35,
+   "style": 0.5
+  },
+  "homme": {
+   "voice_id": "",
+   "stability": 0.4,
+   "style": 0.4
+  }
+ },
+ "alias": {
+  "ines_f": "ines",
+  "ines_loin": "ines"
+ },
+ "choeur": []
+}
